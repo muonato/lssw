@@ -1,5 +1,5 @@
 # lssw
-Bash script for listing all software or specified package using rpm query.
+Bash script for listing all or specified software package name and version using rpm query.
 
 Usage:
 ```
