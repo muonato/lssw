@@ -11,12 +11,15 @@ Parameters:
        2: Package name to query (optional)
 ```    
 Examples:
-       
-       bash lssw.sh servers.txt
-       = query servers listed in file
-       
-       bash lssw.sh server.domain.net
-       = query the specified hostname
-
-       bash lssw.sh servers.txt php
-       = query listed servers for PHP
+1. Query servers listed in 'servers.txt' for all installed packages
+```
+bash lssw.sh servers.txt
+```
+2. Query the specified hostname for all installed packages
+```
+bash lssw.sh server.domain.net
+```
+3. Query servers listed in 'servers.txt' for PHP version
+```
+bash lssw.sh servers.txt php
+```
