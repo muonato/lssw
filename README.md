@@ -1,6 +1,6 @@
 # lssw
 Bash script for listing software using rpm query.
-'''
+
 Usage:
        bash lssw.sh <hosts> [package]
 
@@ -11,7 +11,7 @@ Parameters:
 Examples:
        bash lssw.sh servers.txt
        = query servers listed in file
-'''
+
        bash lssw.sh server.domain.net
        = query the specified hostname
 
