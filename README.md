@@ -1,17 +1,20 @@
 # lssw
-Bash script for listing software using rpm query.
+Bash script for listing all software or specified package using rpm query.
 
 Usage:
+```
        bash lssw.sh <hosts> [package]
-
+```
 Parameters:
+```
        1: Path to filename or hostname
        2: Package name to query (optional)
-
+```    
 Examples:
+       
        bash lssw.sh servers.txt
        = query servers listed in file
-
+       
        bash lssw.sh server.domain.net
        = query the specified hostname
 
