@@ -1,10 +1,10 @@
 # lssw
-Bash script to list all or specified software for name and version using rpm query.
-Assumes user account has SSH agent forwarding configured on target hosts.
+Lists installed software package version using rpm query.
+User account SSH agent forwarding required on target hosts.
 
 Usage:
 ```
-       bash lssw.sh <hosts> [package]
+       $ bash lssw.sh <hosts> [package]
 ```
 Parameters:
 ```
@@ -14,13 +14,13 @@ Parameters:
 Examples:
 1. Query hosts listed in 'servers.txt' for all installed packages
 ```
-bash lssw.sh servers.txt
+$ bash lssw.sh servers.txt
 ```
 2. Query the specified hostname for all installed packages
 ```
-bash lssw.sh server.domain.net
+$ bash lssw.sh server.domain.net
 ```
 3. Query servers listed in 'servers.txt' for PHP version
 ```
-bash lssw.sh servers.txt php
+$ bash lssw.sh servers.txt php
 ```
