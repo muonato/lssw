@@ -5,21 +5,21 @@
 # + prints out software name and version
 #
 # Usage:
-#       bash lssw.sh <hosts> [package]
+#       $ bash lssw.sh <hosts> [package]
 #
 # Parameters:
 #       1: Path to filename or hostname
 #       2: Package name to query (optional)
 #
 # Examples:
-#       bash lssw.sh servers.txt
-#       = query servers listed in file
+#       $ bash lssw.sh servers.txt
+#       (to query servers listed in file)
 #
-#       bash lssw.sh server.domain.net
-#       = query the specified hostname
+#       $ bash lssw.sh server.domain.net
+#       (to query the specified hostname)
 #
-#       bash lssw.sh servers.txt php
-#       = query listed servers for PHP
+#       $ bash lssw.sh servers.txt php
+#       (to query listed servers for PHP)
 #
 function get_sw() {
     echo -e "\n$HOST\n=============="
